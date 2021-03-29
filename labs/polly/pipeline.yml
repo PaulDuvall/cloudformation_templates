@@ -5,7 +5,7 @@ Parameters:
   GitHubUser:
     Type: String
     Description: GitHub User
-    Default: "stelligent"
+    Default: "paulduvall"
   GitHubRepo:
     Type: String
     Description: GitHub Repo to pull from. Only the Name. not the URL
@@ -29,7 +29,7 @@ Parameters:
     Description: The build compute type to use for building the app
   BuildImage:
     Type: String
-    Default: "aws/codebuild/ubuntu-base:14.04"
+    Default: "aws/codebuild/amazonlinux2-x86_64-standard:3.0"
     Description: The build image to use for building the app
   TextFileLocation:
     Type: String
