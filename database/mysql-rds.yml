@@ -521,9 +521,9 @@ Metadata:
       AlertSnsTopicArn:
         default: Alert SNS Topic ARN
       MasterUsername:
-        default: Master Username
+        Default: main Username
       MasterUserPassword:
-        default: Master User Password
+        Default: main User Password
       BackupRetentionPeriod:
         default: Backup Retention Period
       PreferredBackupWindow:

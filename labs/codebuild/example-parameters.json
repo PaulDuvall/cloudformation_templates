@@ -5,7 +5,7 @@
   },
   {
     "ParameterKey":"RepositoryBranch",
-    "ParameterValue":"master"
+    "ParameterValue":"main"
   },
   {
     "ParameterKey":"EC2KeyPairName",

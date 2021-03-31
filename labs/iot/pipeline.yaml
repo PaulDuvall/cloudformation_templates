@@ -145,7 +145,7 @@ Resources:
                     Provider: CodeCommit
                     Version: '1'
                   Configuration:
-                    BranchName: master
+                    BranchName: main
                     RepositoryName: !GetAtt PipelineCodeCommit.Name
                     PollForSourceChanges: true
                   InputArtifacts: []
@@ -165,7 +165,7 @@ Resources:
                   Configuration:
                     Owner: !Ref GitHubRepoOwner
                     Repo: !Ref GitHubRepo
-                    Branch: master
+                    Branch: main
                     OAuthToken: !Ref GitHubToken
                     PollForSourceChanges: true
                   InputArtifacts: []

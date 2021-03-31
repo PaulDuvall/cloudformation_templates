@@ -5,7 +5,7 @@ Parameters:
     Type: String
   RepositoryBranch:
     Type: String
-    Default: master
+    Default: main
   TagKey:
     Type: String
     Default: Name
